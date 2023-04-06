@@ -1,0 +1,34 @@
+{
+  "name": "version-project",
+  "version": "1.0.0",
+  "description": "this is npm package that read project's package.json file and show the current version and wheather it is on production or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanibalgirmay/version-control.git"
+  },
+  "keywords": [
+    "npm",
+    "version",
+    "control",
+    "nodejs"
+  ],
+  "author": "Hanibal Girmay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanibalgirmay/version-control/issues"
+  },
+  "homepage": "https://github.com/hanibalgirmay/version-control#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}
